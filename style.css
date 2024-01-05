@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(15, 6, 23);
+    color: white;
+}
+nav{
+    height: 15vh;
+    background-color: rgb(15, 6, 23);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 900;
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+   justify-content: space-between;
+  position: sticky;
+   top: 0px;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+#right-list{
+    display: flex;
+    position: relative;
+    top: -5vh;
+    left: 7vw;
+}
+#logo{
+    position: relative;
+    top: 3vh;
+    left: 2vw;
+}
+
+
+#left-div{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -1vh;
+    right: 2px;
+}
+
+#left-div input{
+    padding-left: 10px;
+    background-color: rgb(16, 7, 24);
+    height: 6vh;
+    width: 20vw;
+    border: none;
+}
+#search-div{
+   
+    border: 1px solid rgb(240, 240, 241);
+    border-radius: 10px;
+}
+#search-div i{
+padding-left: 10px;
+}
+#btn{
+    background-color:rgb(139, 33, 225);
+    height: 5vh;
+    width: 8vw;
+    border: 1px solid black;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 19px;
+    border-radius: 10px;
+}
+#btn button{
+    background-color:rgb(139, 33, 225);
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#pic{
+   position: relative;
+   left: 30px;
+    width: 80%;
+  
+    
+}
+#pic h1{
+    font-weight: 700;
+color: white;
+}
+
+#content{
+   width: 35%;
+    position: relative;
+    right: 20px;
+   
+}
+#episode-cards{
+    position: absolute;
+    left: 8px;
+}
+.episodes{
+    display: flex;
+
+}
+.episodes img{
+    border-radius: 10px;
+}
+
+.episodes h4{
+    position: relative;
+    left: 9px;
+}
